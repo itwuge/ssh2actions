@@ -54,7 +54,7 @@ MSG="
 ${TMATE_WEB}
 
 🔔 *TIPS:*
-Run '\`touch ${CONTINUE_FILE}\`' to continue to the next step.
+Run '\`touch ${CONTINUE_FILE}\`' 继续下一步.
 "
 
 if [[ -n "${TELEGRAM_BOT_TOKEN}" && -n "${TELEGRAM_CHAT_ID}" ]]; then
