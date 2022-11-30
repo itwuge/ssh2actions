@@ -1,16 +1,15 @@
 #!/usr/bin/env bash
-#
-# Copyright (c) 2020 P3TERX <https://p3terx.com>
-#
-# This is free software, licensed under the MIT License.
-# See /LICENSE for more information.
-#
+# 版权所有 (c) 2020 P3TERX <https://p3terx.com>
+# 这是免费软件，根据MIT许可证许可。
+# 有关详细信息，请参阅/LICENSE。
 # https://github.com/P3TERX/ssh2actions
-# File name：tmate2actions.sh
-# Description: Connect to Github Actions VM via SSH by using tmate
-# Version: 2.0
-#
+# 文件名：tmate2actions.sh
+# 描述：使用tmate通过SSH连接到Github Actions VM
+# 版本：2.0
 
+
+
+#  设置环境变量
 set -e
 Green_font_prefix="\033[32m"
 Red_font_prefix="\033[31m"
