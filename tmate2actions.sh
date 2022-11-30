@@ -92,7 +92,7 @@ done
 while [[ -S ${TMATE_SOCK} ]]; do
     sleep 1
     if [[ -e ${CONTINUE_FILE} ]]; then
-        echo -e "${INFO} Continue to the next step."
+        echo -e "${INFO} 继续下一步."
         exit 0
     fi
 done
