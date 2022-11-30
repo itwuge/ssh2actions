@@ -82,8 +82,8 @@ while ((${PRT_COUNT:=1} <= ${PRT_TOTAL:=10})); do
     done
     echo "-----------------------------------------------------------------------------------"
     echo "要连接到此会话，请将以下内容复制并粘贴到终端或浏览器中:"
-    echo -e "终端连接: ${Green_font_prefix}${TMATE_SSH}${Font_color_suffix}"
-    echo -e "浏览器连接: ${Green_font_prefix}${TMATE_WEB}${Font_color_suffix}"
+    echo -e "SSH 终端连接:  ${Green_font_prefix}${TMATE_SSH}${Font_color_suffix}"
+    echo -e "WEB 连接地址:  ${Green_font_prefix}${TMATE_WEB}${Font_color_suffix}"
     echo -e "提示：运行 'touch ${CONTINUE_FILE}' 继续下一步."
     echo "-----------------------------------------------------------------------------------"
     PRT_COUNT=$((${PRT_COUNT} + 1))
